@@ -1,0 +1,29 @@
+name: idea
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter_test:
+    sdk: flutter
+  url_launcher: ^6.0.20 # убедитесь, что это последняя стабильная версия
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/banner.jpg
+    - assets/product1.jpg
+    - assets/product2.jpg
+    - assets/product3.jpg
+    - assets/product4.jpg
+    - assets/product5.jpg
+    - assets/product6.jpg
+    - assets/product7.jpg
+    - assets/product8.jpg
+    - assets/ad_banner.jpg
+    - assets/photo_333.jpg
